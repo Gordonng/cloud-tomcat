@@ -1,6 +1,6 @@
 FROM java
 MAINTAINER Gordon
-RUN apt-get update
+RUN apt-get install -y update
 RUN apt-get install -y wget
 
 RUN cd /
