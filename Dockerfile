@@ -1,7 +1,7 @@
 FROM java
 MAINTAINER Gordon
-RUN yum update
-RUN yum install -y wget
+RUN apt-get update
+RUN apt-get install -y wget
 
 RUN cd /
 
